@@ -14,11 +14,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/refactoredjello/Char-Sortinator.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/refactoredjello/Char-Sortinator/issues"
-  },
-  "homepage": "https://github.com/refactoredjello/Char-Sortinator#readme"
+  }
 }
