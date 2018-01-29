@@ -5,7 +5,7 @@ const { routeToSort } = require('./routes.js')
 
 const app = express()
 app.use(bodyParser.json())
-app.use(express.static(path.join(__dirname + '/../client/public/')))
+app.use(express.static(path.join(__dirname + '/../client/')))
 
 app.post('/sortinator', routeToSort);
 
