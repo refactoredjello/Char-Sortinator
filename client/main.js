@@ -2,14 +2,18 @@ var getValue = function() {
   var str = document.getElementById('inputString').value
   return str
 }
+
 var addResult = function(str) {
   var newDiv = document.createElement('div')
   var newSortedString = document.createTextNode(str)
   newDiv.appendChild(newSortedString)
-  document.body.appendChild(newDiv)
+
+  var container = document.getElementById('container')
+  container.appendChild(newDiv)
 }
 
-var postData = function(){
+var postData = function(e){
+  e.preventDefault()
   var stringToSend = getValue()
   var payload = {stringToSort: stringToSend}
 
